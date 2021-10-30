@@ -17,5 +17,6 @@ public class TestBase {
     public void after() {
         (new File("redo")).delete();
         (new File("undo")).delete();
+        int i = 0;
     }
 }
